@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b77c8" />
+    <meta name="description" content="Stack Up adalah game menumpuk blok yang santai dan menantang. Kejar Perfect, pertahankan platform, dan bangun menara setinggi mungkin." />
+    <title>Stack Up — Tumpuk. Perfect. Naik Terus.</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header hero-header">
+      <a class="brand" href="./index.html" aria-label="Stack Up, kembali ke beranda" data-i18n-aria="homeLabel"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>STACK <b>UP</b></span></a>
+      <div class="header-actions"><nav aria-label="Navigasi utama" data-i18n-aria="navLabel"><a href="#tentang" data-i18n="navAbout">Tentang game</a><a href="#cara-main" data-i18n="navHow">Cara main</a><a href="./privacy-policy.html" data-i18n="navPrivacy">Privasi</a></nav><div class="language-switch" role="group" aria-label="Pilih bahasa" data-i18n-aria="languageLabel"><button type="button" data-language="id" aria-pressed="true">ID</button><button type="button" data-language="en" aria-pressed="false">EN</button></div></div>
+    </header>
+
+    <main>
+      <section class="poster-hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="sr-only" data-i18n="heroTitle">Stack Up — Tumpuk. Perfect. Naik Terus.</h1>
+        <picture>
+          <source media="(max-width: 700px)" srcset="./assets/stack-up-poster-mobile.png" />
+          <img src="./assets/stack-up-poster-desktop.png" alt="Poster Stack Up: logo biru di atas langit cerah, matahari terbit, pegunungan, dan menara balok biru." data-i18n-alt="posterAlt" fetchpriority="high" />
+        </picture>
+        <a class="hero-scroll" href="#tentang"><span aria-hidden="true">↓</span> <span data-i18n="explore">Jelajahi game</span></a>
+      </section>
+
+      <div class="tagline-band" aria-label="Slogan Stack Up" data-i18n-aria="taglineLabel"><span data-i18n="tagStack">TUMPUK</span><i>✦</i><span>PERFECT</span><i>✦</i><span data-i18n="tagClimb">NAIK TERUS</span><i>✦</i><span data-i18n="tagFocus">FOKUS BERTAMBAH</span></div>
+
+      <section class="intro-section" id="tentang" aria-labelledby="intro-title">
+        <div class="intro-heading"><span class="eyebrow" data-i18n="introEyebrow">GAME ARKADE SANTAI</span><h2 id="intro-title" data-i18n-html="introTitle">Bangun setinggi<br /><em>mungkin.</em></h2></div>
+        <div class="intro-copy"><p data-i18n="introP1">Ambil jeda sejenak dan uji timing kamu. Di Stack Up, setiap blok yang kamu tempatkan akan menentukan seberapa tinggi menaramu bisa bertahan.</p><p data-i18n-html="introP2">Letakkan blok tepat di atas platform sebelumnya. Posisi yang pas memberi <strong>Perfect</strong>. Posisi yang meleset membuat area pendaratan berikutnya semakin kecil.</p><a class="pill-link" href="#cara-main"><span data-i18n="seeHow">Lihat cara main</span> <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="steps-section" id="cara-main" aria-labelledby="steps-title">
+        <div class="section-title"><span class="eyebrow" data-i18n="howEyebrow">CARA BERMAIN</span><h2 id="steps-title" data-i18n-html="stepsTitle">Sederhana untuk dimulai.<br /><em>Menantang untuk dikuasai.</em></h2></div>
+        <div class="steps-grid">
+          <article class="step-card"><div class="step-art art-stack" aria-hidden="true"><span></span><span></span><span></span></div><span class="step-index">01 / STACK</span><h3 data-i18n="step1Title">Tumpuk blok</h3><p data-i18n="step1Body">Tempatkan setiap blok baru di atas blok sebelumnya dan lihat menaramu terus naik.</p></article>
+          <article class="step-card"><div class="step-art art-perfect" aria-hidden="true"><span>✦</span></div><span class="step-index">02 / PERFECT</span><h3 data-i18n="step2Title">Cari posisi pas</h3><p data-i18n="step2Body">Sejajarkan dengan tepat untuk meraih Perfect dan menjaga lebar platform.</p></article>
+          <article class="step-card"><div class="step-art art-cut" aria-hidden="true"><span></span><span></span></div><span class="step-index">03 / KEEP GOING</span><h3 data-i18n="step3Title">Terus naik</h3><p data-i18n="step3Body">Bagian blok yang meleset terpotong. Semakin kecil platform, semakin besar tantangannya.</p></article>
+          <article class="step-card"><div class="step-art art-focus" aria-hidden="true"><span></span><span></span><span></span></div><span class="step-index">04 / FOCUS</span><h3 data-i18n="step4Title">Fokus bertambah</h3><p data-i18n="step4Body">Semakin tinggi menara, setiap penempatan membutuhkan perhatian lebih dan timing yang makin presisi.</p></article>
+        </div>
+      </section>
+
+      <section class="closing-section" aria-labelledby="closing-title"><div class="sun-disc" aria-hidden="true"></div><span class="eyebrow" data-i18n="closingEyebrow">SEBERAPA TINGGI KAMU BISA NAIK?</span><h2 id="closing-title" data-i18n-html="closingTitle">Satu blok lagi.<br /><em>Satu langkah lebih tinggi.</em></h2><p data-i18n="closingTagline">Tumpuk. Perfect. Naik Terus.</p></section>
+    </main>
+
+    <footer class="site-footer"><a class="brand" href="./index.html"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>STACK <b>UP</b></span></a><span>© <span id="year">2026</span> Hundreapps</span><a href="./privacy-policy.html"><span data-i18n="privacyFooter">Kebijakan Privasi</span> <span aria-hidden="true">↗</span></a></footer>
+  </body>
+</html>
