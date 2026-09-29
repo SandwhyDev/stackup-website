@@ -3,7 +3,7 @@ const english = {
   navAbout: 'About the game', navHow: 'How to play', navPrivacy: 'Privacy',
   heroTitle: 'Stack Up — Stack. Perfect. Climb Higher.',
   posterAlt: 'Stack Up poster: blue logo above a bright sky, sunrise, mountains, and a blue block tower.',
-  explore: 'Explore the game', taglineLabel: 'Stack Up tagline', tagStack: 'STACK', tagClimb: 'CLIMB HIGHER', tagFocus: 'FOCUS GROWS',
+  explore: 'Explore the game',
   introEyebrow: 'A RELAXING ARCADE GAME', introTitle: 'Build as high<br /><em>as you can.</em>',
   introP1: 'Take a quick break and test your timing. In Stack Up, every block you place determines how high your tower can climb.',
   introP2: 'Place each block on top of the previous one. A precise landing earns a <strong>Perfect</strong>. A miss makes the next landing area smaller.',
