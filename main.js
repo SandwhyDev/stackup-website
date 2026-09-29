@@ -13,7 +13,7 @@ const english = {
   step3Title: 'Keep climbing', step3Body: 'The overhanging part gets cut away. The smaller the platform, the greater the challenge.',
   step4Title: 'Focus grows', step4Body: 'As the tower rises, every placement calls for more attention and more precise timing.',
   closingEyebrow: 'HOW HIGH CAN YOU GO?', closingTitle: 'One more block.<br /><em>One step higher.</em>',
-  closingTagline: 'Stack. Perfect. Climb Higher.',
+  closingTagline: 'Stack. Perfect. Keep Climbing. Stay Focused.', closingFocus: 'Focus grows as your tower rises.',
   policyEyebrow: 'STACK UP / PRIVACY', policyHeading: 'Privacy <em>Policy.</em>', policyIntro: 'Privacy information for Stack Up players.', policyToc: 'ON THIS PAGE', privacyFooter: 'Privacy Policy',
   statusTitle: 'Document status', statusBody: 'This page is a draft privacy policy for Stack Up by Hundreapps. The available game description explains the gameplay but does not describe data collection or third-party services. These practices must be confirmed before this policy is used for an app release.',
   dataTitle: 'Data and services', dataBody: 'The developer needs to explain whether Stack Up collects or processes personal data, device data, usage data, or gameplay data. If the app uses analytics, ads, accounts, cloud storage, or other third-party services, this section must identify the services, the data involved, the purpose of processing, and links to their policies.',
