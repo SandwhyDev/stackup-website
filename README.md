@@ -4,13 +4,15 @@ Website statis dwibahasa (Indonesia dan Inggris) untuk game Stack Up, berdasarka
 
 ## Menjalankan
 
-Buka `index.html` langsung di browser, atau jalankan server lokal dari folder ini:
+Jalankan server lokal dari folder ini agar URL tanpa `.html` juga berfungsi:
 
 ```bash
-python -m http.server 4173
+python preview.py
 ```
 
-Lalu kunjungi `http://localhost:4173/`.
+Lalu kunjungi `http://127.0.0.1:4173/`.
+
+Di Vercel, `vercel.json` mengaktifkan URL bersih. Beranda memakai `/`, sedangkan kebijakan privasi memakai `/privacy-policy`; URL lama dengan `.html` dialihkan otomatis.
 
 ## Sebelum publikasi
 
